@@ -27,10 +27,10 @@
 
         lower_layer {
             bindings = <
-&trans  &trans  &trans  &trans    &trans   &trans          &kp EQUAL  &kp TILDE  &kp GRAVE     &kp PIPE   &trans  &trans
-&trans  &trans  &trans  &kp HOME  &kp END  &trans          &kp LEFT   &kp DOWN   &kp UP_ARROW  &kp RIGHT  &trans  &trans
-&trans  &trans  &trans  &trans    &trans   &trans  &trans  &trans     &trans     &trans        &trans     &trans  &trans
-                &trans  &trans    &trans   &trans          &trans     &mo 3      &trans        &trans
+&trans  &trans  &trans  &trans    &trans   &trans          &kp EQUAL         &kp TILDE  &kp GRAVE     &kp PIPE   &trans  &trans
+&trans  &trans  &trans  &kp HOME  &kp END  &trans          &kp LEFT          &kp DOWN   &kp UP_ARROW  &kp RIGHT  &trans  &trans
+&trans  &trans  &trans  &trans    &trans   &trans  &trans  &kp LEFT_BRACKET  &kp RBKT   &trans        &trans     &trans  &trans
+                &trans  &trans    &trans   &trans          &trans            &mo 3      &trans        &trans
             >;
 
             sensor-bindings = <&inc_dec_kp LEFT RIGHT>;
